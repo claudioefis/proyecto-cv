@@ -1,0 +1,104 @@
+/*generales*/
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+h1{
+  font-size: 2.5rem;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.navbar{
+  padding: 2rem;
+  background-color: rgb(131, 232, 245);
+}
+.navbar-collapse{
+  align-items: center;
+  justify-content: space-between;
+}
+/*principal*/
+.principal{
+  background-color:  rgb(131, 232, 245);;
+  min-height: 350px;
+  text-align: center;
+}
+.principal1{
+  padding: 3rem;
+
+}
+.imagenprincipal{
+  width: 180px;
+  height: 180px;
+  border-radius: 80px;
+  margin: 20px;
+
+}
+
+.principal1 h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  color: rgb(102, 109, 117);
+}
+
+/*antecedentes laborales*/
+#antecedentes{
+  
+  margin: 20px;
+}
+
+/*estudios*/
+.estudios{
+  padding: 150px;
+  margin-bottom:  180px;
+}
+
+/*trabajos*/
+.container{
+  padding: 150px;
+  margin-top: 150px;
+  margin-bottom: 350px;
+}
+/* footer*/
+footer{
+  min-height: 500px;
+  margin-top: 3rem;
+
+}
+.footer-icon{
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+}
+.footer-texto{
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+
+}
+
+.iconos-redes.sociales a   {
+  width: 80px;
+  height: 80px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 5px solid  rgb(131, 232, 245);
+  border-radius: 50%;
+  transition: all 0,2 ease-in;
+
+}
+
+
+@media  screen and (max-width: 767px){
+  .navbar-brand{
+    display: none;
+
+  }
+
+}
+  
